@@ -5,4 +5,5 @@ paddle espnetv2 复现
 3、训练环境v100*4， paddlepaddle develop  
 4、基于paddleseg实现，配置文件在configs目录下，output目录下有log以及bestmodel  
 5、训练log及best_model在output目录下   
-6、aistudio地址：https://aistudio.baidu.com/aistudio/clusterprojectdetail/2308021
+6、aistudio地址：https://aistudio.baidu.com/aistudio/clusterprojectdetail/2308021  
+7、配置文件中的cross_entropy损失函数权重，使用compute_classweight.py计算，参考：https://hub.fastgit.org/sacmehta/ESPNetv2    
