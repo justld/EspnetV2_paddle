@@ -12,11 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .hrnet import *
-from .resnet_vd import *
-from .xception_deeplab import *
-from .mobilenetv3 import *
-from .vision_transformer import *
-from .swin_transformer import *
-from .mobilenetv2 import *
+
 from .espnet import *

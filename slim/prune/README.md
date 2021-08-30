@@ -1,1 +1,0 @@
-模型裁剪教程，请参考[文档](../../docs/slim/prune/prune.md)。
