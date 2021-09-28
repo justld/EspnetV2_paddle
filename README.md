@@ -47,10 +47,10 @@ cd EspnetV2_paddle
 pip install -r requirements.txt
 ```
 
-### 第三步：计算交叉熵损失的权重
+### 第二步：计算交叉熵损失的权重
 运行compute_classweight.py文件，注意修改文件内的数据路径，将运行打印的输出结果作为配置文件的损失函数权重。
 
-### 第四步：训练模型
+### 第三步：训练模型
 单卡训练：
 ```bash
 python train.py --config configs/espnet_cityscapes_1024_512_120k_x2.yml  --do_eval --use_vdl --log_iter 100 --save_interval 1000 --save_dir output
@@ -60,7 +60,7 @@ python train.py --config configs/espnet_cityscapes_1024_512_120k_x2.yml  --do_ev
 python -m paddle.distributed.launch train.py --config configs/espnet_cityscapes_1024_512_120k_x2.yml  --do_eval --use_vdl --log_iter 100 --save_interval 1000 --save_dir output
 ```
 
-### 第五步：测试
+### 第四步：测试
 output目录下包含已经训练好的模型参数以及对应的日志文件。
 ```bash
 python val.py --config configs/HRNet_W48_cityscapes_1024x512_60k.yml --model_path output/scale_x2/best_model/model.pdparams
