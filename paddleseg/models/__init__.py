@@ -15,4 +15,4 @@
 from .backbones import *
 from .losses import *
 
-from .espnetv2 import EESPNetSeg
+from .espnet import EESPNetHead
