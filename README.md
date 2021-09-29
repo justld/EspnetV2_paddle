@@ -63,7 +63,7 @@ python -m paddle.distributed.launch train.py --config configs/espnet_cityscapes_
 ### 第四步：测试
 output目录下包含已经训练好的模型参数以及对应的日志文件。
 ```bash
-python val.py --config configs/HRNet_W48_cityscapes_1024x512_60k.yml --model_path output/scale_x2/best_model/model.pdparams
+python val.py --config configs/espnet_cityscapes_1024_512_120k_x2.yml --model_path output/scale_x2/best_model/model.pdparams
 ```
 
 ## 6 代码结构与说明
@@ -97,7 +97,7 @@ python val.py --config configs/HRNet_W48_cityscapes_1024x512_60k.yml --model_pat
 | 框架版本 | Paddle develop |
 | 应用场景 | 语义分割 |
 | 硬件支持 | GPU、CPU |
-| 在线体验 | [notebook](https://aistudio.baidu.com/aistudio/projectdetail/2268710?contributionType=1), [Script](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2339905)|
+| 在线体验 | [notebook](https://aistudio.baidu.com/aistudio/projectdetail/2268710?contributionType=1), [Script](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2388364)|
 
 
 
