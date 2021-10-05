@@ -2,6 +2,7 @@
 import numpy as np
 import cv2
 
+
 classes = 20 # 将ignore_index映射成最后一类
 normVal = 1.10
 
