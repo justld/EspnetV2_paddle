@@ -92,7 +92,7 @@ python val.py --config configs/espnet_cityscapes_1024_512_120k_x2.yml --model_pa
 
 | 信息 | 描述 |
 | --- | --- |
-| 作者 | 郎督|
+| 作者 | 郎督、胡慧明|
 | 日期 | 2021年9月 |
 | 框架版本 | Paddle develop |
 | 应用场景 | 语义分割 |
